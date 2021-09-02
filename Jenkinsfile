@@ -3,9 +3,7 @@
 //
 // This is meant to be a shell to demonstrate where pipeline code would go
   pipeline {
-    agent {
-      'none'
-    }
+    agent none
     stages {
       stage('Prep') {
         steps {
