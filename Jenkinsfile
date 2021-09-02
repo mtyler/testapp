@@ -3,9 +3,8 @@
 //
 // This is meant to be a shell to demonstrate where pipeline code would go
   pipeline {
-    environment {
-    }
     agent {
+      'none'
     }
     stages {
       stage('Prep') {
